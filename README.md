@@ -1,4 +1,4 @@
-# Sclar Function Derivative Calculator Webpage
+# Scalar Function Derivative Calculator Webpage
 
 ## Overview
 This project is a minimalist, single-page web application designed to calculate and display the numerical and analytical derivatives of a simple scalar function, specifically \(f(x) = x^3\). The webpage features a modern dark theme, providing a clean and aesthetically pleasing interface.
