@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: #1E1E1E; 
+             color: #D4D4D4; 
+             font-family: 'Consolas', 
+             'Courier New', monospace;">
+    <p>Function to Derive: 
+       <em style="color: #569CD6;">
+       f(x) = x³</em></p>
+    <p id="result"></p>
+
+    <script>
+        function derivative(f, x) {
+            const h = 1e-7;
+            return (f(x + h) - f(x)) / h;
+        }
+
+        const func = x => x ** 3;
+        const x = 1.2;
+        const numDeriv = derivative(func, x);
+        const anaDeriv = 3 * x ** 2;
+
+        document.getElementById("result")
+            .innerHTML = 
+            `<span style="color: #9CDCFE;">
+            Numerical:</span> 
+            ${numDeriv.toFixed(10)}<br>` +
+            `<span style="color: #CE9178;">
+            Analytical:</span> 
+            ${anaDeriv.toFixed(10)}<br>` +
+            `<span style="color: #B5CEA8;">
+            at x = ${x}</span>`;
+    </script>
+</body>
+</html>
