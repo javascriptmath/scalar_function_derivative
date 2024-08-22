@@ -17,10 +17,5 @@ This project is a minimalist, single-page web application designed to calculate 
 ## Usage
 The webpage automatically calculates and displays the derivatives for the scalar function \(f(x) = x^3\) at \(x = 1.2\). The user does not need to provide any input. The results are shown in a clean, code-like format that is easy to read and understand.
 
-## Potential Enhancements
-- **Interactive Input:** Allow users to input different scalar functions and points at which to calculate derivatives.
-- **Expanded Functionality:** Include options for higher-order derivatives or integration.
-- **Dynamic Styling:** Provide theme-switching capabilities or additional customization options for the interface.
-
 ## License
 This project is licensed under the MIT License
